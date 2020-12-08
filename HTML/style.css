@@ -1,0 +1,89 @@
+a{
+  color:orange;
+  background-color: white;
+  border: 3px solid #2F3841;
+  border-radius: 500px;
+  padding: 15px;
+  font-size: : 5px;
+  margin: 15px;
+  opacity: 1;
+  width: 100px;
+  align="center"
+}
+
+a:hover{
+opacity: 1;
+cursor: url(pointer),pointer;
+border: 5px solid #2F3841;
+}
+
+.rus{
+  display: flex;
+  flex-wrap: wramp;
+  justify-content: space-around;
+}
+
+.far{
+  border: 2px solid #2F3841;
+
+}
+
+.resh{
+  border: 2px solid #2F3841;
+
+}
+.rauf{
+  border: 2px solid #2F3841;
+
+}
+
+p{
+    border: 2px solid #2F3841;
+    border-radius: 0px;
+}
+
+body{
+  background: url(https://img.freepik.com/free-photo/beautiful-woman-shopping-for-orthopedic-mattress_130388-1090.jpg?size=626&ext=jpg) no-repeat center center fixed;
+  background-size: cover;
+
+}
+*{
+  cursor: url(http://s1.iconbird.com/ico/2013/9/437/w32h321379971028cloud32.png),pointer;
+}
+
+h2{
+  font-size: 30px;
+  color: white;
+}
+
+h1{
+  font-size: 30px;
+  color: white;
+
+}
+
+/*.............................................
+
+
+    MEDIA
+
+
+.............................................*/
+/*При ширине экрана в 1160px и мение будет выполнен медиа запрос*/
+@media (max-width: 1160px) {
+
+    .container {
+      width: 100%;
+    }
+
+    .col-4{
+      with:  100%;
+      margin: 0;
+      margin-bottom: 30px;
+      padding-left:  15px;
+      padding-right:  15px;
+      text-align: center;
+
+    }
+
+}
